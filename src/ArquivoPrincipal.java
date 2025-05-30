@@ -22,7 +22,7 @@ public class ArquivoPrincipal {
 
                 switch (opcao) {
                     case 1 -> {
-                        LeituraTexto.carregarTexto("src/resources/LetraMusica.txt", arvore);
+                        LeituraTexto.carregarTexto("resources/LetraMusica.txt", arvore);
                     }
 
                     case 2 -> {
